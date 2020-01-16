@@ -1368,7 +1368,7 @@ fi
 echo -e "Congratulations, you have just successfully installed \
 Vesta Control Panel by Carlos Frias
 
-    https://IP:56464
+    https://SERVERIP:8083
     username: admin
     password: $vpass
 
