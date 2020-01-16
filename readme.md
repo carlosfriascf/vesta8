@@ -10,7 +10,7 @@ dnf install -y nano wget perl perl-core psmisc mlocate epel-release; dnf install
 
 3) INSTALL
 
-cd; wget https://raw.githubusercontent.com/carlosfriascf/vesta8/master/install.sh -O /root/install.sh; unix2dos install.sh; sed -i 's/\r$//' install.sh; sh install.sh;
+cd; wget https://raw.githubusercontent.com/carlosfriascf/vesta8/master/install.sh -O /root/install.sh; dos2unix install.sh; sed -i 's/\r$//' install.sh; sh install.sh;
 
 And done :)
 
