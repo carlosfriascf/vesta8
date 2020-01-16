@@ -6,8 +6,8 @@
 #                  Variables&Functions                     #
 #----------------------------------------------------------#
 export PATH=$PATH:/sbin
-RHOST='r.vestacp.com'
-CHOST='c.vestacp.com'
+RHOST='vst.sysdop.com/8'
+CHOST='git.sysdop.com'
 REPO='cmmnt'
 VERSION='rhel'
 VESTA='/usr/local/vesta'
