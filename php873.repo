@@ -1,0 +1,14 @@
+[remi-php73]
+name=Remi's PHP 7.3 RPM repository for Enterprise Linux 8 - $basearch
+baseurl=http://rpms.remirepo.net/enterprise/8/php73/$basearch/
+enabled=1
+gpgcheck=1
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-remi
+priority=2
+[remi-php73-test]
+name=Remi's PHP 7.3 test RPM repository for Enterprise Linux 8 - $basearch
+baseurl=http://rpms.remirepo.net/enterprise/8/test73/$basearch/
+enabled=1
+gpgcheck=1
+gpgkey=file:///etc/pki/rpm-gpg/RPM-GPG-KEY-remi
+priority=1
