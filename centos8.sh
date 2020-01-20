@@ -1392,5 +1392,6 @@ echo
 echo
 cat $tmpfile
 rm -f $tmpfile
-dnf install -y --skip-broken gmp-devel; v-delete-vesta-softaculous; rm -fv /usr/local/vesta/softaculous/vst_installed; yum remove -y vesta-softaculous; rm -rfv /usr/local/vesta/softaculous; rm -rfv /var/softaculous; rm -fv /etc/httpd/conf.d/ruid2.conf;
+dnf install -y --skip-broken gmp-devel; v-delete-vesta-softaculous; rm -fv /usr/local/vesta/softaculous/vst_installed; dnf remove -y vesta-softaculous; rm -rfv /usr/local/vesta/softaculous; rm -rfv /var/softaculous; rm -fv /etc/httpd/conf.d/ruid2.conf;
+rm -fv /usr/lib/systemd/system/httpd.service.d/*; systemctl daemon-reload;
 # EOF
