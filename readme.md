@@ -6,7 +6,7 @@ Enter in Console/Terminal with root (sudo su root) or su root
 
 2) RUN
 
-dnf install -y nano wget perl perl-core psmisc mlocate epel-release; dnf install -y screen dos2unix;
+dnf install -y wget perl psmisc epel-release; dnf install -y dos2unix;
 
 3) INSTALL
 
